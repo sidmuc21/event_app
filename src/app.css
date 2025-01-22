@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+
+h1 {
+	text-align: center;
+	font-family: 'Turret Road', sans-serif;
+	font-weight: 800;
+	font-size: 50px;
+	color: rgb(240, 243, 248);
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+a,
+label {
+	text-align: center;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: 'Turret Road', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin-right: 30px;
+}
+.logres{
+	margin: 5px;
+	font-size: 20px;
+}
+.logout{
+	width: 200px;
+	margin: auto;
+}
+.box {
+	border: 1px solid rgb(123, 124, 126);
+	padding: 1rem;
+	margin-bottom: 20px;
+	background-color: rgb(211, 211, 211);
+	border-radius: 20px;
+	font-family: 'Roboto', serif;
+	color: rgb(70, 70, 82);
+}
+
+.container {
+	border: 1px solid rgb(194, 200, 214);
+	background-color: rgb(156, 152, 152);
+	border-radius: 20px;
+	padding: 1rem;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+label,
+input,
+button {
+	margin: 10px;
+}
+
+body {
+	background-color: rgb(19, 22, 27);
+}
+
+p,
+button {
+	color: rgb(126, 127, 129);
+	text-align: center;
+	font-family: 'Turret Road', sans-serif;
+	font-weight: 600;
+}
+
+p{
+	font-size: 20px;
+}
+
+button {
+	border: 1px solid rgb(123, 124, 126);
+	padding: 1rem;
+	margin-bottom: 20px;
+	background-color: rgb(211, 211, 211);
+	border-radius: 20px;
+	font-size: 15px;
+}
+
+
+@keyframes glow {
+	from {
+		text-shadow:
+			0 0 7px #fff,
+			0 0 17px #ffffff,
+			0 0 27px #0077e6,
+			0 0 37px #00b0e6,
+			0 0 47px #00e6e6,
+			0 0 57px #84ffef,
+			0 0 67px #d8fffc;
+	}
+	to {
+		text-shadow:
+			0 0 20px #fff,
+			0 0 30px #594dff,
+			0 0 40px #4d6eff,
+			0 0 50px #4d6eff,
+			0 0 60px #594dff,
+			0 0 70px #8f91ff,
+			0 0 80px #a5abff;
+	}
+}
